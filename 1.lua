@@ -12,7 +12,7 @@ for i, v in pairs(game:GetService("Workspace").ItemSpawns.Meteors:GetDescendants
        TPService:TeleportToPlaceInstance(game.PlaceId)
     game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
     if State == Enum.TeleportState.Started then
-        syn.queue_on_teleport("loadstring(game:HttpGet(('https://pastebin.com/raw/mEAjaHTu'),true))()")
+        syn.queue_on_teleport("loadstring(game:HttpGet(('https://raw.githubusercontent.com/AbstractKenz/lol/main/1.lua'),true))()")
     end
 end
     end
